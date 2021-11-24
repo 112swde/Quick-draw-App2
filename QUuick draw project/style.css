@@ -1,0 +1,72 @@
+body
+{background: rgb(5,246,138);
+    background: radial-gradient(circle, rgba(5,246,138,1) 0%, rgba(16,114,172,1) 100%);
+
+}
+
+h1
+{
+    font-family: 'elephant';
+    background: white;
+}
+
+#score
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    float: left;
+    margin-left: 110px;
+}
+
+#timer
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    float: right;
+    margin-right: 110px;
+}
+
+#StbDrwn
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+    color: red;
+}
+
+#yourSketch
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#confidence
+{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#show_sketch
+{
+    margin-left: 100px;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px red;}
+}
